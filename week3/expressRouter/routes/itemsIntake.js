@@ -29,17 +29,18 @@ let items = [
     }
 ]
 
-intakeRouter.get('/', (req, res) => {
-    res.send(items);
-});
+intakeRouter
+    .get('/', (req, res) => {
+        res.send(items);
+    })
 
-intakeRouter.post('/', (req, res) => {
-    const newIntake = req.body;
-    newIntake._id = uuidv4();
-    items.push(newIntake);
+    .post('/', (req, res) => {
+        const newIntake = req.body;
+        newIntake._id = uuidv4();
+        items.push(newIntake);
 
-    console.log(items);
-    res.send(`Successfully added ${newIntake.name} to the database`);
-})
+        console.log(items);
+        res.send(`Successfully added ${newIntake.name} to the database`);
+    })
 
 module.exports = intakeRouter;
