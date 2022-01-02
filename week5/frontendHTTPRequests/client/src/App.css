@@ -1,0 +1,27 @@
+input {
+    width: 155px;
+}
+
+button {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+#newForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.entryDiv {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
