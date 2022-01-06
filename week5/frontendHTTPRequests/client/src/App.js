@@ -38,7 +38,7 @@ function App() {
   }
 
   const updateEntry = (id, item, desc, quan, ppu) => {
-    fetch('/items/' + id, {
+    fetch(`/items/${id}`, {
       method: 'PUT',
       headers: {
         'Accept': 'application/json',
