@@ -1,0 +1,51 @@
+body {
+    background: url("https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+input {
+    width: 155px;
+}
+
+button {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: 2px inset gray;
+    border-radius: 20px;
+    background: linear-gradient(to right, yellow, green);
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+#newForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#listFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.entryDiv {
+    border: 5px inset gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(115, 115, 115, 0.8);
+}
