@@ -1,0 +1,127 @@
+*{margin: 0; padding: 0}
+
+body {
+    background-color: #16466b;
+}
+
+#addNew {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+#addNew:hover {
+    cursor: pointer;
+}
+
+#menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0, 0.6);
+    padding-bottom: 95px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menuInputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 95px;
+}
+
+.addAsset {
+    width: 160px;
+    margin: 5px;
+}
+
+#selectLabel {
+    background-color: white;
+    border-radius: 2px;
+    padding: 0 1px;
+    color: #787878;
+    font-size: 15px;
+}
+
+#updateInputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 95px;
+}
+
+#closeMenu {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+#closeMenu:hover {
+    cursor: pointer;
+}
+
+#hdr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    background: url("https://blog.driveo.com/wp-content/uploads/2019/03/Selling-Your-Car-to-a-Dealership.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-shadow: -2px -2px 15px;
+}
+
+.searchDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+#search {
+    width: 215px;
+}
+
+#searchID {
+    width: 215px;
+}
+
+.searchBtn {
+    margin-left: 10px;
+    padding: 0 8px;
+}
+
+.entryDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carStats {
+    margin: 20px;
+}
+
+.deleteDiv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carImg {
+    width: 30vw;
+    height: auto;
+    max-width: 576px;
+    margin: 20px;
+}
